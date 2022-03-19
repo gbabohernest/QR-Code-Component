@@ -35,37 +35,8 @@ main {
   margin-top: 10%;
 }
 
-@media screen and (min-width: 62.5rem) {
-  .card {
-    width: 25%;
-  }
-}
-
-@media screen and (min-width: 59.4375rem) and (max-width: 62.4375rem) {
-  .card {
-    width: 30%;
-  }
-}
-
-@media screen and (min-width: 48.0625rem) and (max-width: 59.375rem) {
-  .card {
-    width: 40%;
-  }
-}
-
-@media screen and (min-width: 34.4375rem) and (max-width: 48rem) {
-  .card {
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 18.75rem) and (max-width: 34.375rem) {
-  .card {
-    width: 75%;
-  }
-}
-
 .card {
+  width: 300px;
   background-color: var(--white-bg);
   align-self: center;
   padding: 1rem;
